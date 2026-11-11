@@ -1,11 +1,8 @@
-// =================================
-//   VARIABLES
-// =================================
-
-// Imports
 @use 'sass:color';
 
-// =================  Colors ================
+// =================================
+//   COLORS
+// =================================
 
 // Background Colors
 $bg-page: #fbfbfb;
@@ -21,7 +18,9 @@ $text-muted: #6b7280;
 $text-white: #ffffff;
 $text-accent: #C4511A;
 
-// =================  Typography ================
+// =================================
+//   TYPOGRAPHY
+// =================================
 
 // Fonts
 $font-title: "Roboto", Arial, Helvetica, sans-serif;
@@ -41,8 +40,3 @@ $fs-ultra: 4rem;
 $fs-card-title: 1.35rem;
 $fs-card-subtitle: 1.1rem;
 $fs-card-text: 1rem;
-
-// =================  Utilities ================
-
-$navbar-height: 71.2px;
-$navbar-mobile-height: 60px;
