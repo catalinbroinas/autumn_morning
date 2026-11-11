@@ -1,0 +1,38 @@
+
+.card-challenge {
+  height: 100%;
+
+  &__mask {
+    background-color: rgba(251, 251, 251, 0.15);
+  }
+
+  &__header {
+    background-color: $bg-page;
+    text-align: center;
+    border: none;
+  }
+
+  &__title {
+    font-family: $font-title;
+    font-weight: 600;
+    font-size: 1.35rem;
+    color: $text-primary;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    font-family: $font-title;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: $text-accent;
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    font-family: $font-text;
+    font-weight: 400;
+    font-size: 1rem;
+    color: $text-secondary;
+    margin-bottom: 0;
+  }
+}

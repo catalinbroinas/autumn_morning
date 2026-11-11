@@ -17583,6 +17583,39 @@ fieldset:disabled .btn-group-vertical > .btn {
   box-shadow: 0 12px 32px rgba(48, 46, 41, 0.14);
 }
 
+.card-challenge {
+  height: 100%;
+}
+.card-challenge__mask {
+  background-color: rgba(251, 251, 251, 0.15);
+}
+.card-challenge__header {
+  background-color: #fbfbfb;
+  text-align: center;
+  border: none;
+}
+.card-challenge__title {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  color: #332d2d;
+  margin-bottom: 0;
+}
+.card-challenge__subtitle {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #C4511A;
+  margin-bottom: 0.5rem;
+}
+.card-challenge__text {
+  font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 0;
+}
+
 .footer__text {
   background-color: #F5F5F5;
   padding: 1rem 3rem;
