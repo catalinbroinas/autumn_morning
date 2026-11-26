@@ -17591,6 +17591,11 @@ fieldset:disabled .btn-group-vertical > .btn {
 .card-challenge {
   height: 100%;
 }
+@media (hover: hover) {
+  .card-challenge:hover {
+    box-shadow: 0 10px 24px rgba(230, 81, 0, 0.1);
+  }
+}
 .card-challenge__mask {
   background-color: rgba(251, 251, 251, 0.15);
 }

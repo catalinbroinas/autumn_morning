@@ -2,6 +2,12 @@
 .card-challenge {
   height: 100%;
 
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 10px 24px rgba($bg-brand, 0.10);
+    }
+  }
+
   &__mask {
     background-color: rgba(251, 251, 251, 0.15);
   }
