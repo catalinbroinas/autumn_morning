@@ -17607,6 +17607,9 @@ fieldset:disabled .btn-group-vertical > .btn {
 
 .card-challenge {
   height: 100%;
+  border: 1px solid rgba(48, 46, 41, 0.06);
+  box-shadow: 0 4px 16px rgba(48, 46, 41, 0.06);
+  transition: box-shadow 0.25s ease;
 }
 @media (hover: hover) {
   .card-challenge:hover {
@@ -17626,6 +17629,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-weight: 600;
   font-size: 1.35rem;
   color: #332d2d;
+  line-height: 1.3;
   margin-bottom: 0;
 }
 .card-challenge__subtitle {
@@ -17633,6 +17637,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-weight: 600;
   font-size: 1.125rem;
   color: #C4511A;
+  line-height: 1.4;
   margin-bottom: 0.5rem;
 }
 .card-challenge__text {
@@ -17640,6 +17645,7 @@ fieldset:disabled .btn-group-vertical > .btn {
   font-weight: 400;
   font-size: 1rem;
   color: #4b5563;
+  line-height: 1.6;
   margin-bottom: 0;
 }
 
