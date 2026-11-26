@@ -61,6 +61,8 @@
   }
 
   &__image {
+    max-width: 100%;
+    height: auto;
     border-radius: 0.75rem;
     box-shadow: 0 12px 32px rgba(48, 46, 41, 0.14);
   }
