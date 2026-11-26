@@ -42,8 +42,8 @@
     background-color: $bg-brand;
     color: $text-white;
     box-shadow:
-      0 4px 8px rgba(48, 46, 41, 0.12),
-      0 2px 4px rgba(188, 108, 69, 0.16);
+      0 4px 10px rgba(188, 108, 69, 0.22),
+      0 2px 4px rgba(48, 46, 41, 0.08);
     
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 
@@ -52,8 +52,8 @@
         background-color: $bg-brand;
         color: $text-white;
         box-shadow:
-          0 6px 12px rgba(48, 46, 41, 0.16),
-          0 3px 6px rgba(188, 108, 69, 0.2);
+          0 6px 14px rgba(188, 108, 69, 0.28),
+          0 3px 6px rgba(48, 46, 41, 0.10);
         transform: translateY(-2px);
       }
     }
@@ -62,7 +62,7 @@
       background-color: $bg-brand;
       color: $text-white;
       transform: translateY(0);
-      box-shadow: 0 2px 4px rgba(48, 46, 41, 0.12);
+      box-shadow: 0 2px 5px rgba(188, 108, 69, 0.18);
     }
 
     &:focus-visible {
