@@ -61,8 +61,11 @@
   }
 
   &__image {
-    max-width: 100%;
+    display: block;
+    width: 100%;
+    max-width: 480px;
     height: auto;
+    margin-inline: auto;
     border-radius: 0.75rem;
     box-shadow: 0 12px 32px rgba(48, 46, 41, 0.14);
   }
