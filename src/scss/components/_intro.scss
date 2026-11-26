@@ -69,6 +69,14 @@
       outline: 3px solid $text-accent;
       outline-offset: 3px;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      transform: none;
+
+      &:hover {
+        transform: none;
+      }
+    }
   }
 
   &__image {

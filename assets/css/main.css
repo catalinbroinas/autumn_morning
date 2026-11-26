@@ -17587,6 +17587,14 @@ fieldset:disabled .btn-group-vertical > .btn {
   outline: 3px solid #C4511A;
   outline-offset: 3px;
 }
+@media (prefers-reduced-motion: reduce) {
+  .intro__button.btn.btn-primary {
+    transform: none;
+  }
+  .intro__button.btn.btn-primary:hover {
+    transform: none;
+  }
+}
 .intro__image {
   display: block;
   width: 100%;
