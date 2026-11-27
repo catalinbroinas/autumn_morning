@@ -9482,30 +9482,6 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
-.transform-0 {
-  transform: rotate(0deg) !important;
-}
-
-.transform-10 {
-  transform: rotate(10deg) !important;
-}
-
-.transform-30 {
-  transform: rotate(30deg) !important;
-}
-
-.transform-45 {
-  transform: rotate(45deg) !important;
-}
-
-.transform-90 {
-  transform: rotate(90deg) !important;
-}
-
-.transform-180 {
-  transform: rotate(180deg) !important;
-}
-
 .ls-tighter {
   letter-spacing: -0.05em !important;
 }
