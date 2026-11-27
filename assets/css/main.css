@@ -10141,7 +10141,7 @@ a {
 
 .intro {
   background: linear-gradient(120deg, #F8F1E7 0%, #EDE5D8 60%, #E8D6C1 100%);
-  padding-block: 6rem;
+  padding-block: clamp(3rem, 8vw, 6rem);
   border-bottom: 1px solid rgba(48, 46, 41, 0.08);
   box-shadow: 0 8px 24px rgba(48, 46, 41, 0.06);
 }
