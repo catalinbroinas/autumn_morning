@@ -18,4 +18,8 @@ An experimental landing page for an autumn running challenge, featuring three tr
 
 ## Status
 
-Experimental project – created for UI/UX exploration and front-end practice.
+Experimental project created for UI/UX exploration and front-end practice.
+
+## Live Demo
+
+[Autumn Morning](https://catalinbroinas.github.io/autumn_morning/)
