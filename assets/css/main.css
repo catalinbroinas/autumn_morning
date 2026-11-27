@@ -10170,21 +10170,21 @@ a {
   margin-bottom: 1.5rem;
 }
 .intro__button.btn.btn-primary {
-  background-color: #E65100;
+  background-color: #D64000;
   color: #ffffff;
   box-shadow: 0 4px 10px rgba(188, 108, 69, 0.22), 0 2px 4px rgba(48, 46, 41, 0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 @media (hover: hover) {
   .intro__button.btn.btn-primary:hover {
-    background-color: #E65100;
+    background-color: #D64000;
     color: #ffffff;
     box-shadow: 0 6px 14px rgba(188, 108, 69, 0.28), 0 3px 6px rgba(48, 46, 41, 0.1);
     transform: translateY(-2px);
   }
 }
 .intro__button.btn.btn-primary:active {
-  background-color: #E65100;
+  background-color: #D64000;
   color: #ffffff;
   transform: translateY(0);
   box-shadow: 0 2px 5px rgba(188, 108, 69, 0.18);

@@ -39,7 +39,7 @@
   }
 
   &__button.btn.btn-primary {
-    background-color: $bg-brand;
+    background-color: $button-bg;
     color: $text-white;
     box-shadow:
       0 4px 10px rgba(188, 108, 69, 0.22),
@@ -49,7 +49,7 @@
 
     @media (hover: hover) {
       &:hover {
-        background-color: $bg-brand;
+        background-color: $button-bg;
         color: $text-white;
         box-shadow:
           0 6px 14px rgba(188, 108, 69, 0.28),
@@ -59,7 +59,7 @@
     }
 
     &:active {
-      background-color: $bg-brand;
+      background-color: $button-bg;
       color: $text-white;
       transform: translateY(0);
       box-shadow: 0 2px 5px rgba(188, 108, 69, 0.18);
